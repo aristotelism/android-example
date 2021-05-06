@@ -11,7 +11,7 @@ repositories {
     maven { url "https://jitpack.io" }
 }
 
-group = 'com.github.jitpack'
+group = 'com.github.aristotelism'
 version = '1.0'
 
 android {
@@ -52,7 +52,7 @@ afterEvaluate {
             // Creates a Maven publication called "release".
             release(MavenPublication) {
                 from components.release
-                groupId = 'com.github.jitpack'
+                groupId = 'com.github.aristotelism'
                 artifactId = 'android-example'
                 version = '1.0'
             }
